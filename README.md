@@ -12,6 +12,9 @@ This plug-in supports ```lights```, ```switches```, and ```fans``` as well.
 
 - Install homebridge-rf-control
 
+- Compile codesend.cpp
+`g++ -Wall codesend.cpp -o codesend`
+
 - Update your homebridge configuration
 ```
 "accessories": [{
