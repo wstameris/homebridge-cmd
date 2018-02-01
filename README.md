@@ -1,4 +1,4 @@
-# homebridge-rfoutlets
+# homebridge-rf-control
 A plug-in for controlling Remote Frequency (rf) outlets.
 
 This plug-in is developed especially for controlling 433MHz RF sockets, which can be purchased at a reasonable price. (i. e. [these](https://www.amazon.de/Brennenstuhl-Funkschalt-Set-Funksteckdosen-Innenbereich-Kindersicherung/dp/B001AX8QUM "Brennenstuhl Wireless Outlets"). Since Homebridge handles status information, you will always know if you have left the device turned on.
