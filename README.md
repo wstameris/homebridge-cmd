@@ -30,7 +30,7 @@ This plug-in supports ```lights```, ```switches```, and ```fans``` as well.
 ## Notes
 
 It is necessary that the user from whom homebridge is started is on the *sudoers* list, because the executable file (codesend) requires root privileges.
-For detailed instructions on how to record RF signals and set up the Pi for transmission, see[here] (https://www.samkear.com/hardware/control-power-outlets-wirelessly-raspberry-pi "Pi 433Mhz Transmitter Guide"). Note: The web part of the guide is not required.
+For detailed instructions on how to record RF signals and set up the Pi for transmission, see [here](https://www.samkear.com/hardware/control-power-outlets-wirelessly-raspberry-pi "Pi 433Mhz Transmitter Guide"). Note: The web part of the guide is not required.
 
 When this doesn't work, follow these steps:
 
