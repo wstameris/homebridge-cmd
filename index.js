@@ -5,7 +5,7 @@ var exec = require("child_process").exec,
 module.exports = function(homebridge) {
     Service = homebridge.hap.Service;
     Characteristic = homebridge.hap.Characteristic;
-    limiter = new RateLimiter(1, 700); //limit requests to one per 200ms
+    limiter = new RateLimiter(1, 700); // limit requests to one per 200ms
     homebridge.registerAccessory("homebridge-rfoutlets",
         "RFOutlet",
         RFOutletAccessory);
@@ -14,32 +14,20 @@ module.exports = function(homebridge) {
 function RFOutletAccessory(log, config) {
     this.log = log;
 
-    //Accessory information
+    // Accessory information
     this.name = config["name"];
     this.type = config["type"];
     this.manufacturer = config["manufacturer"];
     this.model = config["model"];
     this.serial = config["serial"];
 
-    //RF transmit inforamtion
+    // RF transmit inforamtion
     this.rf_on = config["rf_on"];
     this.rf_off = config["rf_off"];
 
-    if (config["pulselength"]) {
-        this.pulselength = config["pulselength"];
-    } else {
-        this.pulselength = 189; //Default to a pulse length of 189
-    }
-
-    if (config["pin"]) {
-        this.pin = config["pin"];
-    } else {
-        this.pin = 0; //Default to GPIO pin 0
-    }
-
-    cmdBase = "sudo " + //the codesend executable requires root
-        __dirname + //module directory
-        "/codesend -p " + this.pin + " -l " + this.pulselength + " ";
+    cmdBase = "sudo " + // the codesend executable requires root
+            __dirname + // module directory
+            "/codesend + " ";
 }
 
 RFOutletAccessory.prototype = {
