@@ -10,8 +10,7 @@ This plug-in supports ```lights```, ```switches```, and ```fans``` as well.
 - Install homebridge  
 `sudo npm install -g homebridge`
 
-- Install homebridge-rfoutlets  
-`sudo npm install -g homebridge-rfoutlets`
+- Install homebridge-rf-control
 
 - Update your homebridge configuration
 ```
