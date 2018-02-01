@@ -1,6 +1,6 @@
 {
     "bridge": {
-        "name": "Homebridge",
+        "name": "Markus' Homebridge",
         "username": "CB:22:3D:E3:CE:30",
         "port": 51826,
         "pin": "000-11-222"
@@ -12,14 +12,12 @@
 
     "accessories": [{
         "accessory": "RFOutlet",
-        "name": "Window Fan",
-        "type": "Fan",
-        "manufacturer": "Lasko",
-        "model": "Weather Shield Box Fan",
+        "name": "Outlet:A",
+        "type": "Switch",
+        "manufacturer": "HAUG",
+        "model": "RF-Outlet",
         "serial": " ",
         "rf_on": 4480259,
-        "rf_off": 4480268,
-        "pulselength": "",
-        "pin": ""
+        "rf_off": 4480268
     }]
 }
