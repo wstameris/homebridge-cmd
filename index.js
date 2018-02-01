@@ -37,7 +37,7 @@ RFOutletAccessory.prototype = {
 
         if (powerOn) {
             cmd = cmdBase + this.rf_on;
-            state = "on";
+            state = "on"; 
         } else {
             cmd = cmdBase + this.rf_off;
             state = "off";
