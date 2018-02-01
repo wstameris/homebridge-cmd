@@ -1,11 +1,9 @@
 # homebridge-rfoutlets
 A plug-in for controlling Remote Frequency (rf) outlets.
 
-This plug-in is developed especially for controlling 433MHz RF sockets, which can be purchased at a reasonable price. (i. e.[these](https://www.amazon.de/Brennenstuhl-Funkschalt-Set-Funksteckdosen-Innenbereich-Kindersicherung/dp/B001AX8QUM "Brennenstuhl Wireless Outlets"). Since Homebridge handles status information, you will always know if you have left the device turned on.
+This plug-in is developed especially for controlling 433MHz RF sockets, which can be purchased at a reasonable price. (i. e. [these](https://www.amazon.de/Brennenstuhl-Funkschalt-Set-Funksteckdosen-Innenbereich-Kindersicherung/dp/B001AX8QUM "Brennenstuhl Wireless Outlets"). Since Homebridge handles status information, you will always know if you have left the device turned on.
 
-It was tested on a Raspberry Pi 3 with Ubuntu and Node. js v6.9.0. This should work on most Raspberry Pi models.
-
-Supports ```lights```, ```switches```, and ```fans```
+This plug-in supports ```lights```, ```switches```, and ```fans``` as well.
 
 ## Installation
 
