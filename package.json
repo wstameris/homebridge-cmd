@@ -1,5 +1,5 @@
 {
-    "name": "homebridge-rfoutlets",
+    "name": "homebridge-rf-control",
     "version": "0.1.0",
     "description": "RF (433MHz) outlet remote control plugin for homebridge: https://github.com/nfarina/homebridge",
     "license": "(MIT OR ISC)",
@@ -11,11 +11,11 @@
         "homebridge": ">=0.2.0"
     },
     "author": {
-        "name": "wstameris"
+        "name": "markushaug"
     },
     "repository": {
         "type": "git",
-        "url": "git://github.com/wstameris/homebridge-rfoutlets"
+        "url": "git://github.com/markushaug/homebridge-rfoutlets"
     },
     "dependencies": {
         "limiter": "1.x"
